@@ -1,0 +1,44 @@
+.cart-items-container {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.gift-informaton {
+    font-size: 11px;
+    font-weight: 500;
+    color: #444a54;
+}
+.progress-bar-container {
+    background-color: #dbe6f4;
+    padding: 8px;
+    border-radius: 7px;
+}
+.subtotal-line {
+    border-style: solid;
+}
+.subtotal-price {
+    font-size: 20px;
+}
+.subtotal-name {
+    font-size: 20px;
+}
+.cart-subtotal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-summary-container {
+    background-color: #f3f4f6;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    height: 140px;
+    border-radius: 8px;
+}
+.cart-headings {
+    font-size: 20px;
+    color: #444a54;
+}
+.cart-top {
+}
+.cart-main-container {
+}

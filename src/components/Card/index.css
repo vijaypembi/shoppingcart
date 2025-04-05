@@ -1,0 +1,64 @@
+.onIncreaseButton {
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    border-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #1ad142;
+    color: white;
+    cursor: pointer;
+}
+.card-quantity {
+    font-size: 17px;
+    text-align: center;
+    margin: 0px 10px;
+}
+.onDecreaseButton {
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    border-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #d11a4e;
+    color: white;
+    cursor: pointer;
+}
+.cart-card-buttoncontainer {
+    padding: 10px;
+}
+.free-gift {
+    font-size: 12px;
+    font-weight: 500;
+    color: #187b2e;
+    background-color: #70d886;
+    padding: 7px;
+    border-radius: 8px;
+}
+.cart-card-price {
+    font-size: 15px;
+    font-weight: 500;
+    color: #444a54;
+    margin: 5px 0px;
+}
+.cart-card-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: #121417;
+    margin: auto;
+}
+.cart-card-left {
+}
+
+.cart-card {
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    margin: 10px;
+    min-width: 220px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
