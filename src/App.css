@@ -1,38 +1,39 @@
+.empty-cart-message {
+    text-align: center;
+    color: #838ca3;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 10px;
+}
+.empty-cart-name {
+    text-align: center;
+    color: #838ca3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px;
+}
+.empty-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.app-shopping-cart-name {
+    text-align: center;
+    color: #404654;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    margin: 10px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    padding: 10px 30px;
 }
